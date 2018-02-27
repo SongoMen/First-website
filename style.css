@@ -21,6 +21,7 @@ html{
 .body{
     background-color:black;
 }
+/*header*/
 
 .header{
     width:90%;
@@ -28,9 +29,23 @@ html{
     overflow: hidden;
 }
 
+.header-logo{
+    float:left;
+}
+
 header{
+    z-index: 10;
+    height:-60px;
+    top:0;
+    overflow: hidden;
     width:100%;
-    background-color:black;
+    position: fixed;
+    transition: top 0.2s ease-in-out;
+    background-color: black;
+}
+
+.nav-up{
+    top:60px;
 }
 
 header ul {
@@ -55,11 +70,19 @@ header li a:hover{
     color:black
 }
 
-.header-logo{
-    float:left;
-
-}
 header nav{
     float:right;
     margin-top:17px;
+}
+
+/*End Header*/
+
+/*Home*/
+
+
+.home img{
+    top:-6%;
+    position: absolute;
+    width:100%;
+    size:cover;
 }
