@@ -1,3 +1,3 @@
-$(window).load(function() {
-    $("#loading").fadeOut(500);
- })
+setTimeout(function() {
+    $('#mydiv').fadeOut('fast');
+}, 1000);

@@ -1,5 +1,3 @@
-$(window).load(function() {
-	$("#loading-center").click(function() {
-	$("#loading").fadeOut(500);
-	})		
-});
+setTimeout(function() {
+    $('#loading').delay(900).fadeOut('fast');
+}, 1000);
