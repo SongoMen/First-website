@@ -16,6 +16,7 @@
 html{
     font-family:Geomanist2;
     font-size:15px;
+    background-color: black;
 }
 .body{
     background-color:black;
@@ -28,6 +29,7 @@ html{
 }
 
 header{
+    width:100%;
     background-color:black;
 }
 
