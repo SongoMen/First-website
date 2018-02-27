@@ -34,18 +34,17 @@ html{
 }
 
 header{
+    height: 40px;
     z-index: 10;
-    height:-60px;
     top:0;
     overflow: hidden;
     width:100%;
     position: fixed;
     transition: top 0.2s ease-in-out;
-    background-color: black;
 }
 
 .nav-up{
-    top:60px;
+    top:-40px;
 }
 
 header ul {
@@ -77,6 +76,7 @@ header nav{
 
 /*End Header*/
 
+/*Home*/
 /*Home*/
 
 
