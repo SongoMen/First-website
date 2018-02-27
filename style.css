@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Geomanist';
+    src: url("fonts/Geomanist-Light.eot");
+    src: url("fonts/Geomanist-Light.woff") format("woff"),url("fonts/Geomanist-Light.ttf") format("truetype"),url("fonts/Geomanist-Light.svg") format("svg");
+    font-weight: 200;
+    font-style: light;
+}
+@font-face {
+    font-family: 'Geomanist2';
+    src: url("fonts/Geomanist-Medium.eot");
+    src: url("fonts/Geomanist-Medium.woff") format("woff"),url("fonts/Geomanist-Medium.ttf") format("truetype"),url("fonts/Geomanist-Medium.svg") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+html{
+    font-family:Geomanist2;
+    font-size:15px;
+}
+.body{
+    background-color:black;
+}
+
+.header{
+    width:90%;
+    margin:auto;
+    overflow: hidden;
+}
+
+header{
+    background-color:black;
+}
+
+header ul {
+    margin:0;
+    padding:0;
+
+}
+
+header a{
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+}
+
+header li{
+    display:inline;
+    padding:0 10px 0 10px;
+}
+
+header li a:hover{
+    
+    color:black
+}
+
+.header-logo{
+    float:left;
+
+}
+header nav{
+    float:right;
+    margin-top:17px;
+}
