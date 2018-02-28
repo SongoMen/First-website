@@ -189,6 +189,7 @@ header nav{
     left:0%;
     position: absolute;
     width:100%;
+    filter: brightness(90%);
 }
 .point {
     position: absolute;
@@ -204,24 +205,26 @@ header nav{
     }
 @keyframes scroll{
     0%{
-        background-position: 0 -100px;
+        background-position: 0 -150px;
     }
     50%{
         background-position: 0 0;
     }
     100%{
-        background-position:0 100px;
+        background-position: 0 150px;
     }
 }
 
-}
+
 .line{
     width: 4px;
     height: 150px;
     position: absolute;
     top:70%;
+    bottom: 100px;
     left:50%;
-    background:orange;
+    background-position: 0 -200px;
+    background:white;
     border-radius: 50px;
     animation: scroll 3s ease forwards infinite; 
 }
