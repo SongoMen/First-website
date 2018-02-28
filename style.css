@@ -13,6 +13,11 @@
     font-style: normal;
 }
 
+*{
+    box-sizing: border-box;
+
+}
+
 html{
     font-family:Geomanist2;
     font-size:15px;
@@ -20,6 +25,9 @@ html{
 }
 .body{
     background-color:black;
+    margin:0;
+    display: flex;
+    justify-content: center;
 }
 /*preloader*/
 #loading{
@@ -131,12 +139,19 @@ html{
     margin:auto;
     overflow: hidden;
 }
+a{
+    text-decoration: none;
+}
 
 .header-logo{
     float:left;
+    margin-left:-14px;
+    position: relative;
+    z-index: 30;
 }
 
-header{
+.navigation{
+    margin-top: 70px;
     height: 40px;
     z-index: 10;
     top:0;
@@ -145,39 +160,50 @@ header{
     position: fixed;
     transition: top 0.2s ease-in-out;
 }
-
-.nav-up{
-    top:-40px;
-}
-
-header ul {
+ul {
     margin:0;
     padding:0;
 
 }
-
-header a{
+.menu a{
+    text-align: right;
     text-transform: uppercase;
     color:white;
-    text-decoration: none;
+    position: relative;
+    transition: color .2s ease;
+    padding: 3px 0;
 }
+
+.menu a:hover{
+    color: #aaa;
+}
+
+.menu a:hover::after, .menu a:hover::before{
+    width:100%;
+    left:0;
+}
+
+.menu a::after, .menu a::before{
+    content: ''; 
+    position: absolute;
+    top: calc(100% + 2px);
+    width: 0;
+    right: 0;
+    height: 3px;
+}
+
+.menu a::before{
+    transition: width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+    background: #f3bb21;
+}
+
 
 header li{
     display:inline;
     padding:0 10px 0 10px;
 }
 
-header li:nth-child(1){
-    text-decoration: underline;
-    text-decoration-color: orange;
-}
-
-header li a:hover{
-    
-    color:black
-}
-
-header nav{
+nav{
     float:right;
     margin-top:17px;
 }
@@ -196,18 +222,6 @@ header nav{
     width:100%;
     filter: brightness(90%);
 }
-.point {
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    background: tomato;
-    transition: width 1s ease;
-    top:50%;
-    left:50%;
-    }
-    .point:hover {
-        width: 200px;
-    }
 @keyframes scroll{
     from{
         height:0px
@@ -220,7 +234,7 @@ header nav{
 
 .line{
     bottom: 100px;
-    width: 4px;
+    width: 2px;
     height: 150px;
     position: absolute;
     top:73%;
@@ -236,7 +250,9 @@ header nav{
     color:white;
     font-family: Geomanist;
     font-size: 18px;
-    top:85%;
-    left:48.3%;
+    top:88%;
+    left:48.2%;
 }
+
+
 
