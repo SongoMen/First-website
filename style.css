@@ -167,6 +167,11 @@ header li{
     padding:0 10px 0 10px;
 }
 
+header li:nth-child(1){
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
 header li a:hover{
     
     color:black
@@ -204,28 +209,34 @@ header nav{
         width: 200px;
     }
 @keyframes scroll{
-    0%{
-        background-position: 0 -150px;
+    from{
+        height:0px
     }
-    50%{
-        background-position: 0 0;
+    to{
+        height: 100px;
     }
-    100%{
-        background-position: 0 150px;
-    }
+
 }
 
-
 .line{
+    bottom: 100px;
     width: 4px;
     height: 150px;
     position: absolute;
-    top:70%;
-    bottom: 100px;
+    top:73%;
     left:50%;
     background-position: 0 -200px;
     background:white;
     border-radius: 50px;
-    animation: scroll 3s ease forwards infinite; 
+    animation: scroll 1.5s ease forwards infinite; 
+}
+
+.home-scroll p{
+    position: absolute;
+    color:white;
+    font-family: Geomanist;
+    font-size: 18px;
+    top:85%;
+    left:48.3%;
 }
 
