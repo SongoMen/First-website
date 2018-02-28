@@ -190,3 +190,18 @@ header nav{
     position: absolute;
     width:100%;
 }
+.scroll{
+    position:absolute;
+    z-index:25;
+    display:block;
+    top:auto;
+    bottom:100px;
+    left:50%;
+    width:2px;
+    height:200px;
+    margin-left:-1px;
+    background:#fff;
+    background:-webkit-linear-gradient(top,#fff 50%,rgba(255,255,255,0) 50%);
+    background:linear-gradient(to bottom,#fff 50%,rgba(255,255,255,0) 50%);
+    background-size:100% 200%;
+}
