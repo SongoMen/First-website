@@ -190,18 +190,39 @@ header nav{
     position: absolute;
     width:100%;
 }
-.scroll{
-    position:absolute;
-    z-index:25;
-    display:block;
-    top:auto;
-    bottom:100px;
+.point {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: tomato;
+    transition: width 1s ease;
+    top:50%;
     left:50%;
-    width:2px;
-    height:200px;
-    margin-left:-1px;
-    background:#fff;
-    background:-webkit-linear-gradient(top,#fff 50%,rgba(255,255,255,0) 50%);
-    background:linear-gradient(to bottom,#fff 50%,rgba(255,255,255,0) 50%);
-    background-size:100% 200%;
+    }
+    .point:hover {
+        width: 200px;
+    }
+@keyframes scroll{
+    0%{
+        background-position: 0 -100px;
+    }
+    50%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position:0 100px;
+    }
 }
+
+}
+.line{
+    width: 4px;
+    height: 150px;
+    position: absolute;
+    top:70%;
+    left:50%;
+    background:orange;
+    border-radius: 50px;
+    animation: scroll 3s ease forwards infinite; 
+}
+
