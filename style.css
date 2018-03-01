@@ -30,7 +30,7 @@ body{
 }
 /*preloader*/
 #loading{
-	background-color: #374140;
+	background-color: #29302f;
 	height: 100%;
     width: 100%;
     left: 0; 
@@ -256,14 +256,16 @@ nav{
     background-position: center down;
     background-repeat: no-repeat;
     background-size: cover;
+    filter:brightness(85%);
 }
 .home-scroll p{
     position: fixed;
+    letter-spacing: 3px;
     color:white;
     font-family: Geomanist;
     font-size: 18px;
     top:87%;
-    left:48.3%;
+    left:47.8%;
 }
 
 
