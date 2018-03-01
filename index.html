@@ -3,13 +3,18 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Imagine Dragons</title>
-        <meta name=viewport content="width-device-width, intial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
         <link rel="icon" href="images/icon.jpg"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <script src="js/scripts.js"></script>
         <script src="js/jquery-2.0.2.min.js"></script>
+        <script src="js/scripts.js"></script>
     </head>
     <body>
+        <script>
+            $('html, body').css({
+                'overflow': 'hidden',
+            })   
+        </script>
         <div id="loading">
             <div id="loading-center">
                 <div id="loading-center-absolute">
@@ -43,5 +48,13 @@
                 <p>SCROLL</p>
             </div>
         </div>
+        <div id="container">
+            <h1>Playing for you<br/>sice 2008.</h1>
+        </div>
+        <script>
+            $('html, body').css({
+                'overflow': 'auto',
+            })
+        </script>
     </body>
 </html>

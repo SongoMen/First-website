@@ -30,6 +30,9 @@ body{
 }
 /*preloader*/
 #loading{
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    overflow: hidden;
     background-image: url("images/loading.jpg");
     height: 100%; 
     background-position: center down;
@@ -45,6 +48,9 @@ body{
 	top: 0px;
 }
 #loading-center{
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    overflow: hidden;
 	width: 100%;
 	height: 100%;
 	position: relative;
@@ -203,7 +209,7 @@ ul {
 
 .menu a::before{
     transition: width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
-    background: #fbff00;
+    background: #ffee00;
 }
 
 
@@ -249,7 +255,6 @@ nav{
     width: 2px;
     height: 150px;
     position: absolute;
-    background-position: 0 -200px;
     background:#222220;
     border-radius: 50px;
     animation: scroll 1.5s cubic-bezier(0.51, 0.18, 0, 0.88) infinite; 
@@ -257,13 +262,21 @@ nav{
 }
 
 .home-scroll p{
-    position: fixed;
+    position: absolute;
     letter-spacing: 3px;
     font-family: Geomanist;
     font-size: 18px;
-    top:87%;
+    top:120%;
     left:47.8%;
+    margin-bottom: 20px;
 }
 
+/*containter*/
+
+#container{
+    width:100%;
+    height:100%;
+    background-color:#222220;
+}
 
 
