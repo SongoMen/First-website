@@ -21,13 +21,13 @@
 html{
     font-family:Geomanist2;
     font-size:15px;
+    margin:0px;
     background-color: black;
 }
-.body{
+body{
     background-color:black;
-    margin:0;
+    margin:0px;
     display: flex;
-    justify-content: center;
 }
 /*preloader*/
 #loading{
@@ -139,6 +139,15 @@ html{
     margin:auto;
     overflow: hidden;
 }
+header{
+    display: flex;
+    height: 40px;
+    z-index: 10;
+    top:0;
+    overflow: hidden;
+    width:100%;
+    position: fixed;
+}
 a{
     text-decoration: none;
 }
@@ -174,12 +183,12 @@ ul {
     padding: 3px 6px;
 }
 
-.menu a:hover::after, .menu a:hover::before{
+.menu a:hover::before{
     width:100%;
     left:0;
 }
 
-.menu a::after, .menu a::before{
+.menu a::before{
     content: ''; 
     position: absolute;
     top: calc(100% - 2px);
@@ -227,25 +236,34 @@ nav{
 }
 
 }
+.home-scroll{
+    top:73%;
+    left:50%;
+    position: absolute;
+}
 .line{
     width: 2px;
     height: 150px;
     position: absolute;
-    top:73%;
-    left:50%;
     background-position: 0 -200px;
     background:white;
     border-radius: 50px;
-    animation: scroll 1.5s ease infinite; 
+    animation: scroll 1.5s cubic-bezier(0.51, 0.18, 0, 0.88) infinite; 
+    animation-direction: alternate;
 }
-
+.home{
+    background-image: url('images/start.jpg');        
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
 .home-scroll p{
-    position: absolute;
+    position: fixed;
     color:white;
     font-family: Geomanist;
     font-size: 18px;
-    top:88%;
-    left:48.2%;
+    top:87%;
+    left:48.3%;
 }
 
 
