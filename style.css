@@ -155,15 +155,15 @@ a{
     margin-left:-14px;
     position: relative;
     z-index: 30;
-    padding-left: 10px;
+
     
 }
 
 .black{
-    height: 200px;
+    z-index: 5;
+    height: 75px;
     background-color: rgba(107,107,107,0.66);
     position: fixed;
-    top:200px;
     width: 100%;
 }
 
@@ -178,7 +178,7 @@ a{
 }
 ul {
     margin:0;
-    padding:15px;
+    padding:12px;
 
 }
 .menu a{
@@ -203,6 +203,10 @@ ul {
     width: 0;
     right: 0;
     height: 5px;
+}
+
+.menu li:visited{
+    color:#ffee007a;
 }
 
 .menu a::before{
@@ -287,7 +291,8 @@ nav{
 .text-container {
     z-index: 1;
     position: relative;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
+    padding-top: 50px;
 }
 
 h1{
@@ -365,9 +370,11 @@ h1:active {
 .wiecej{
     background-color:#222220;
     height:100px;
+    letter-spacing: 2px;
 }
 
 .wiecej li{
+    float: left;
     list-style-type: none;
     display: inline;
 }
@@ -376,8 +383,15 @@ h1:active {
     padding: 8px 32px;
     vertical-align: center;
     line-height: 70px;
-    letter-spacing: 2px;
     color:#fff;
     
+}
+
+.date{
+    color:white;
+    padding-right:20px;
+    font-size:18px;
+    float:right;
+    line-height: 10px;
 }
 
