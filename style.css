@@ -408,7 +408,7 @@ h1:active {
     font-size:80px;
     position: relative;
     display: inline-block;
-    top: 44%;
+    margin-top:500px;
     left:20%;
     transform: translateY(-50%); 
     background-color: #22222025;
@@ -480,7 +480,7 @@ h1:active {
     font-size:80px;
     position: relative;
     display: inline-block;
-    top: 44%;
+    margin-top:500px;
     left:12%;
     transform: translateY(-50%); 
     background-color: #22222025;
@@ -519,7 +519,7 @@ h1:active {
     font-size:80px;
     position: relative;
     display: inline-block;
-    top: 44%;
+    margin-top:500px;
     left:30%;
     transform: translateY(-50%); 
     background-color: #22222025;
