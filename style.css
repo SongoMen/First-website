@@ -366,7 +366,6 @@ h1:active {
 
 }
 
-
 .wiecej{
     background-color:#222220;
     height:100px;
@@ -395,3 +394,138 @@ h1:active {
     line-height: 10px;
 }
 
+.dysk{
+    background-image: url("images/dysk.jpg");
+    height: 100%; 
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    background-position: center down;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(85%);
+}
+.dysk h2{
+    font-size:80px;
+    position: relative;
+    display: inline-block;
+    top: 44%;
+    left:20%;
+    transform: translateY(-50%); 
+    background-color: #22222025;
+    padding-left: 40px;
+    padding-right:20px;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: 50px;
+}
+.dysk-scroll{
+    top:73%;
+    display: block;
+    left:50%;
+    position: relative;
+    color:white;
+}
+.line-dysk{
+    width: 2px;
+    height: 150px;
+    display: block;
+    background:white;
+    border-radius: 50px;
+    animation: scroll 1.5s cubic-bezier(0.51, 0.18, 0, 0.88) infinite; 
+    animation-direction: alternate;
+}
+
+#container table{
+    margin-top:-170px;
+    margin-left:auto;
+    float:right;
+    margin-right:auto;
+    font-family: Geomanist;
+    border-radius: 50px;
+    border-spacing:0 20px;
+}
+
+#container td{
+    padding:20px;
+    padding-left:40px;
+    padding-right: 40px;
+}
+
+#container tr{
+    padding: 25px 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.37);
+}
+#container tr:nth-child(1){
+    background-color:#22222046;
+}
+
+#container td:nth-child(1){
+    width:500px;
+    padding-right: 200px;
+    height:40px;
+}
+
+.historia {
+    background-image: url("images/historia.jpg");
+    height: 100%; 
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    background-position: center down;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(85%);
+}
+
+.historia h2{
+    font-size:80px;
+    position: relative;
+    display: inline-block;
+    top: 44%;
+    left:12%;
+    transform: translateY(-50%); 
+    background-color: #22222025;
+    padding-left: 40px;
+    padding-right:20px;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: 40px;
+}
+
+.text {
+    font-size:30px;
+    font-family: Geomanist;
+}
+
+.text h1{
+    font-family: Geomanist2;
+    margin:0;
+    margin-left:-10px;
+    font-size:30px;
+    font-style: italic;
+}
+
+.galeria{
+    background-image: url("images/galeria.jpg");
+    height: 100%; 
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    background-position: center down;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(85%);
+}
+
+.galeria h2{
+    font-size:80px;
+    position: relative;
+    display: inline-block;
+    top: 44%;
+    left:30%;
+    transform: translateY(-50%); 
+    background-color: #22222025;
+    padding-left: 40px;
+    padding-right:20px;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: 40px;
+}
