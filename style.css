@@ -530,6 +530,22 @@ h1:active {
     letter-spacing: 40px;
 }
 
+.item img{
+    width:500px;
+    float:left;
+    transform: scale(1);
+    transition:ease-in-out, .2s ease-in-out;
+    padding-left:100px;
+    max-width: 700px;
+    display: block;
+    position: relative;
+    padding-top:20px;
+}
+
+.item:hover img {
+    transform: scale(1.2);
+  }
+
 .kontakt{
     background-image: url("images/kontakt.jpg");
     height: 100%; 
@@ -582,22 +598,24 @@ textarea{
 }
 input[type="submit"]{
     margin-top:20px;
+    text-transform:uppercase;
     outline: none;
+    text-spacing:2px;
     border:0;
     width:150px;
     font-family: Geomanist2;
-    transition: ease-in-out, all .5s ease-in-out;
+    transition: ease-in-out, all .5s ease-in-out;   
 }
 
-input:before{
-
-}
-input:focus{
-    background: linear-gradient(to right, red 50%, blue 50%);
-    background-size: 200% 100%;
-    background-position:left bottom;
+input[type=text]:focus{
+    border-bottom: 2px solid #222222;
     
 }
 textarea:focus{
     border-bottom: 2px solid #222222;
+}
+
+input[type=submit]:hover{
+    background-color:#222220;
+    color:white;
 }
