@@ -600,7 +600,7 @@ input[type="submit"]{
     margin-top:20px;
     text-transform:uppercase;
     outline: none;
-    text-spacing:2px;
+    letter-spacing:2px;
     border:0;
     width:150px;
     font-family: Geomanist2;
