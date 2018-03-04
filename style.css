@@ -248,32 +248,6 @@ nav{
     filter:brightness(85%);
 }
 
-.home-scroll{
-    top:73%;
-    display: block;
-    left:50%;
-    position: relative;
-    color:#222220;
-}
-.line{
-    width: 2px;
-    height: 150px;
-    display: block;
-    background:#222220;
-    border-radius: 50px;
-    animation: scroll 1.5s cubic-bezier(0.51, 0.18, 0, 0.88) infinite; 
-    animation-direction: alternate;
-}
-
-/*.home-scroll p{
-    position: absolute;
-    letter-spacing: 3px;
-    left:-2.4%;
-    user-select: none;
-    font-family: Geomanist;
-    font-size: 18px;
-}
-*/
 
 /*containter*/
 
@@ -294,7 +268,6 @@ nav{
     padding-bottom: 80px;
     padding-top: 50px;
 }
-
 h1{
     display: inline;
     transition: background-size .4s ease;
@@ -305,7 +278,6 @@ h1{
     color: #222220;
     font-size:60px;
 }
-
 h1:hover {
     background-size: 100% 100%;
   }
