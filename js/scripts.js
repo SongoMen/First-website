@@ -1,5 +1,5 @@
 setTimeout(function() {
-    $('#loading').delay(1200).fadeOut('slow');
+    $('#loading').delay(700).fadeOut('slow');
 }, 1000);
 
 
