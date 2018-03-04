@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Imagine Dragons-Kontakt</title>
+    <meta name=viewport content="width=device-width, initial-scale=1"/>
+    <link rel="icon" href="images/icon.jpg"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="navigation">
+                <div class="header-logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" style="width:300px;width:300px"/></a>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="dyskografia.html">Dyskografia</a></li>
+                    <li><a href="historia.html">Historia Zespołu</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="black"></div>
+    </header>
+    <div class="kontakt">
+        <h2>Kontakt</h2>
+        <div class="dysk-scroll">
+            <span class="line-dysk"></span>
+            <!--<p>SCROLL</p>-->
+        </div>
+    </div>
+    <div id="container">
+        <div class="text-container">
+            <h1 id="container-text2">Kontakt</h1>
+        </div>
+        <div class=form>
+            <form action="mailto:email@gmail.com" method="POST">
+                <label type="text" name="Name">Imię</label><br/>
+                <input class='text-input' id='name' name='name' required type='text'><br/>
+                <label type="text" name="Name">Temat</label><br/>
+                <input class='text-input' id='email' name='email' required type='email'><br/>
+                <label type="text" name="Name">Wiadomość</label><br/>   
+                <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea><br/>
+                <input class='button' type='submit' value='Wyślij !'>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="wiecej">
+                <ul class="menu">
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="dyskografia.html">Dyskografia</a></li>
+                    <li><a href="historia.html">Historia Zespołu</a></li>
+                    <li><a href="Galeria.html">Galeria</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            <p class="date"><script>document.write(today);</script></p>
+        </div>
+    </footer>
+</body>
+</html>

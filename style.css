@@ -529,3 +529,75 @@ h1:active {
     color:#fff;
     letter-spacing: 40px;
 }
+
+.kontakt{
+    background-image: url("images/kontakt.jpg");
+    height: 100%; 
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    background-position: center down;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(85%);
+}
+
+.kontakt h2{
+    font-size:80px;
+    position: relative;
+    display: inline-block;
+    margin-top:500px;
+    left:30%;
+    transform: translateY(-50%); 
+    background-color: #22222025;
+    padding-left: 40px;
+    padding-right:20px;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: 40px;
+}
+
+#container form{
+    font-size:25px;
+    border:0px;
+    color:#222220;
+}
+
+input{
+    height:50px;
+    border:0;
+    border-bottom: 2px solid #1818167a;
+    margin-top:-5px;
+    outline:none;
+    font-size: 20px;
+    font-family: Geomanist;
+    transition: ease-in-out, all .5s ease-in-out;
+    margin-bottom: 30px;
+}
+textarea{
+    border:0;
+    font-size: 20px;
+    font-family: Geomanist;
+    border-bottom:2px solid #1818167a;
+
+}
+input[type="submit"]{
+    margin-top:20px;
+    outline: none;
+    border:0;
+    width:150px;
+    font-family: Geomanist2;
+    transition: ease-in-out, all .5s ease-in-out;
+}
+
+input:before{
+
+}
+input:focus{
+    background: linear-gradient(to right, red 50%, blue 50%);
+    background-size: 200% 100%;
+    background-position:left bottom;
+    
+}
+textarea:focus{
+    border-bottom: 2px solid #222222;
+}
