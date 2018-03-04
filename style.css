@@ -240,8 +240,8 @@ nav{
     filter:brightness(85%);
 }
 .scroll-downs {
-    position: fixed;
-    top: 0;
+    position: relative;
+    top: 88%;
     right: 0;
     bottom: 0;
     left: 0;
@@ -254,7 +254,7 @@ nav{
     width: 3px;
     padding: 10px 15px;
     height: 35px;
-    border: 2px solid #fff;
+    border: 2px solid #222220;
     border-radius: 25px;
     opacity: 0.75;
     box-sizing: content-box;
@@ -263,11 +263,15 @@ nav{
     width: 3px;
     height: 10px;
     border-radius: 25%;
-    background-color: #fff;
+    background-color: #222222;
     animation-name: scroll;
     animation-duration: 2.2s;
     animation-timing-function: cubic-bezier(.15,.41,.69,.94);
     animation-iteration-count: infinite;
+  }
+  .mousey p{
+    padding-top:30px;
+    padding-right:90px;
   }
   @keyframes scroll {
     0% { opacity: 0; }
