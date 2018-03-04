@@ -2,7 +2,7 @@ setTimeout(function() {
     $('#loading').delay(1200).fadeOut('slow');
 }, 1000);
 
-function today(){
+
 var today = new Date();
 var day = today.getDate();
 var month = today.getMonth()+1; //January is 0!
@@ -13,4 +13,3 @@ if(month>10){
 }
 
 today = day + '/' + month + '/' + year;
-}
