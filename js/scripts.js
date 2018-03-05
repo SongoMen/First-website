@@ -1,6 +1,5 @@
-setTimeout(function() {
-    $('#loading').delay(700).fadeOut('slow');
-}, 1000);
+
+$("#paint").delay(3000).fadeIn(100);
 
 
 var today = new Date();
