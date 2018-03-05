@@ -28,20 +28,29 @@
             <div class="line-menu half end"></div>
         </div>
     </header>
-    <div class="container">
+    <div class="home" id="home">
         <h1>Imagine Dragons</h1>
+        <div id="bg"></div>
+        <div class="panel-nav">
+            <i class="panel-nav"></i>
+            <span class="circle">
+                <span class="dot"></span>
+                <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.8 98.8">
+                    <circle class="circle" fill="none" stroke="white" stroke-width="5" stroke-miterlimit="10" cx="49.4" cy="49.4" r="46.9"></circle>
+                </svg>
+            </span>
+        </div>
+        
     </div>
     <script>
         $('html, body').css({
             'overflow': 'auto',
         })
-
         var wrapperMenu = document.querySelector('.wrapper-menu');
 
         wrapperMenu.addEventListener('click', function(){
         wrapperMenu.classList.toggle('open');  
         })
     </script>
-
 </body>
 </html>

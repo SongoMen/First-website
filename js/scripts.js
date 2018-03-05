@@ -1,7 +1,4 @@
 
-$("#paint").delay(3000).fadeIn(100);
-
-
 var today = new Date();
 var day = today.getDate();
 var month = today.getMonth()+1;
