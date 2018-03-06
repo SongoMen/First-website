@@ -275,4 +275,13 @@ nav{
     height: 25px;
 }
 
-.circle1
+.subtitle{
+    color:white;
+    font-style: italic;
+    top:220px;
+    left:10px;
+    margin-left:45px;
+    font-size: 30px;
+    position: absolute;
+    display: inline;
+}
