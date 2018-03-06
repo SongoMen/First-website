@@ -13,10 +13,17 @@
     font-style: normal;
 }
 
+a{
+    text-decoration: none;
+}
 
 body{
+    padding-top: 30px;
+    font-family:Montserrat;
     background-color:#0e0e0e;
     padding:70px;
+    width:100%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -47,12 +54,65 @@ header{
     transition: all 0.5s ease-out;
 }
 
+.navigation{
+    display: flex;
+    height: 50px;
+    z-index: 10;
+    top:0;
+    overflow: hidden;
+    width:100%;
+    position: relative;
+    transition: top 0.2s ease-in-out;
+}
+ul {
+    margin:0;
+    padding:12px;
 
+}
+.menu a{
+    text-align: right;
+    text-transform: uppercase;
+    color:white;
+    font-size: 16px;
+    position: relative;
+    transition: color .2s ease;
+    padding: 7px 8px;
+}
+
+.menu a:hover::before{
+    width:100%;
+    left:0;
+}
+
+.menu a::before{
+    content: ''; 
+    position: absolute;
+    top: calc(100% - 9px);
+    width: 0;
+    right: 0;
+    height: 5px;
+}
+
+.menu li:visited{
+    color:#ffee007a;
+}
+
+.menu a::before{
+    transition: width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+    background: #E94E3D;
+}
+
+header li{
+    display:inline;
+}
+
+nav{
+    float:right;
+    margin-top:17px;
+}
 .wrapper-menu {
     padding-top:10px;
-    margin-left: auto;
     float:right !important;
-    top:20%;
     width: 30px;
     height: 30px;
     display: flex;
@@ -156,7 +216,7 @@ header{
 .home h1{
     text-align: center;
     font-size: 100px;
-    letter-spacing: 25px;
+    letter-spacing: 21px;
     vertical-align: center;
     font-family: 'Montserrat';
     font-style: italic;

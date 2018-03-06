@@ -11,16 +11,20 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
-    <script>
-            $('html, body').css({
-                'overflow': 'hidden',
-            })   
-    </script>
 
     <header>
         <div class="header-logo">
             <a href="index.html"><img src="images/logo.png" alt="logo" style="width:300px;width:300px"/></a>
         </div>
+        <nav class="navigation">
+            <ul class="menu">
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="dyskografia.html">Dyskografia</a></li>
+                <li><a href="historia.html">Historia Zespołu</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
         <div class="wrapper-menu">
             <div class="line-menu half start"></div>
             <div class="line-menu"></div>
@@ -35,8 +39,8 @@
             <span class="circle1">
                 <span class="dot"></span>
                 <div class="circle"></div>
-                <p class="panel-nav__list-item__copy type--d7 type--uppercase is-visible-tablet" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">Strona Główna</p>
-                <span class="panel-nav__list-item__line is-visible-tablet" style="visibility: hidden; opacity: 0; transform: translate3d(0px, 0px, 0px) scale(0, 1);"></span>
+                <p class="panel-nav-text" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">Strona Główna</p>
+                <span class="panel-nav-line" style="visibility: hidden; opacity: 0; transform: translate3d(0px, 0px, 0px) scale(0, 1);"></span>
             </span>
             <span class="circle2">
                     <span class="dot"></span>
@@ -58,9 +62,6 @@
         
     </div>
     <script>
-        $('html, body').css({
-            'overflow': 'auto',
-        })
         var wrapperMenu = document.querySelector('.wrapper-menu');
 
         wrapperMenu.addEventListener('click', function(){

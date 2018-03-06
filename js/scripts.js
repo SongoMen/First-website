@@ -7,7 +7,7 @@ function check_if_in_view() {
     var window_top_position = $window.scrollTop();
     var window_bottom_position = (window_top_position + window_height);
   
-    $.each($animation_elements, function() {
+    $.each($circle, function() {
       var $element = $(this);
       var element_height = $element.outerHeight();
       var element_top_position = $element.offset().top;
