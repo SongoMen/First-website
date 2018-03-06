@@ -16,7 +16,7 @@
         <div class="header-logo">
             <a href="index.html"><img src="images/logo.png" alt="logo" style="width:300px;width:300px"/></a>
         </div>
-        <nav class="navigation">
+        <nav class="navigation" id="navigation">
             <ul class="menu">
                 <li><a href="index.html">Strona główna</a></li>
                 <li><a href="dyskografia.html">Dyskografia</a></li>
@@ -63,12 +63,12 @@
     </div>
     <script>
         var wrapperMenu = document.querySelector('.wrapper-menu');
+        var Nav = document.querySelector('.navigation');
 
         wrapperMenu.addEventListener('click', function(){
         wrapperMenu.classList.toggle('open');  
-        })
-
-        
+        Nav.classList.toggle('isActive');
+        })      
     </script>
 </body>
 </html>
