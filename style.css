@@ -155,7 +155,6 @@ nav{
     transition: transform 0.5s ease-out;
 }
 
-
 .wrapper-menu.open {
   transform: rotate(-45deg);  
 }
@@ -224,6 +223,7 @@ nav{
     margin-top: 2px;
     margin-left:0.7px;
 }
+
 .circle2 .circle:after{
     margin-top:40px;
 }
@@ -268,23 +268,11 @@ nav{
 
 .panel-nav {
     cursor: pointer;
-    bottom: 250px;
+    bottom: 150px;
     position: absolute;
     right: 0;
     width: 25px;
     height: 25px;
 }
 
-
-#bg{
-    z-index: 30;
-    background-image: url("images/loading.jpg");
-    height: 100%; 
-    overflow-y: hidden !important;
-    overflow-x: hidden !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter:brightness(85%);
-}
-
+.circle1
