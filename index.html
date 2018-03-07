@@ -11,7 +11,7 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
-
+    <div id="page-trans" style="transform-origin: right 50% 0px; transform: translate3d(0px, 0px, 0px) scale(0, 1);"></div>
     <header>
         <div class="header-logo">
             <a href="index.html"><img src="images/logo.png" alt="logo" style="width:300px;width:300px"/></a>
@@ -31,37 +31,23 @@
             <div class="line-menu half end"></div>
         </div>
     </header>
-    <div class="home" id="home">
-        <p class="subtitle">Założona w 2008</p>
-        <div class="recta"></div>
-        <h1>Imagine Dragons</h1>
-        <div id="bg"></div>
-        <div class="panel-nav">
-            <i class="panel-nav--list"></i>
-            <span class="circle1">
-                <span class="dot"></span>
-                <div class="circle"></div>
-                <p class="panel-nav-text" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">Strona Główna</p>
-                <span class="panel-nav-line" style="visibility: hidden; opacity: 0; transform: translate3d(0px, 0px, 0px) scale(0, 1);"></span>
-            </span>
-            <span class="circle2">
-                    <span class="dot"></span>
-                    <div class="circle"></div>
-            </span>
-            <span class="circle3">
-                    <span class="dot"></span>
-                    <div class="circle"></div>
-            </span>  
-            <span class="circle4">
-                    <span class="dot"></span>
-                    <div class="circle"></div>
-            </span>    
-            <span class="circle5">
-                    <span class="dot"></span>
-                    <div class="circle"></div>
-            </span>
-        </div>
-        
+    <section class="nav-panel">
+        <ul>
+            <li>01</li>
+            <li>02</li>
+            <li>03</li>
+            <li>04</li>
+            <li>05</li>
+        </ul>
+    </section>
+
+    <article class="home" id="home">
+        <h1>Imagine<br/> Dragons</h1>
+        <button class="explore">Dalej<span class="icon"></span><span class="icon after"></span></button>
+    </article>
+    <article class="article2" id="article2" style="display: none">
+            <h1>Imagine<br/> babans</h1>
+    </article>
     </div>
     <script>
         var wrapperMenu = document.querySelector('.wrapper-menu');
