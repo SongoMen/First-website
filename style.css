@@ -129,7 +129,7 @@ nav{
 .wrapper-menu {
     padding-top:6px;
     float:right !important;
-    padding-left: 1050px;
+    padding-left: 1000px;
     width: 30px;
     height: 30px;
     display: flex;
@@ -230,7 +230,7 @@ nav{
     color:#E94E3D;
 }
 
-.explore{
+.dalej{
     margin-top:auto;
     margin-bottom:auto;
 }
@@ -238,7 +238,7 @@ nav{
 button {
     font-family: "Montserrat";
     font-weight: bold;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     background: none;
     color: white;
     position: relative;
@@ -246,7 +246,7 @@ button {
     border: none;
     height: 50px;
     width: 190px;
-    font-size: 14px;
+    font-size: 13px;
     z-index: 2;
     transition: .01s .23s ease-out all;
     overflow: hidden;
@@ -286,12 +286,12 @@ button {
     width: 70%;
   }
   button:hover .icon.after:after {
-    left: -100px;
+    left: -130px;
     color: #E94E3D;
     transition: .2s .2s ease all;
   }
   button:hover .icon.after:before {
-    left: -50px;
+    left: -80px;
     top: 19px;
     opacity: 1;
     color: #E94E3D;
@@ -317,7 +317,7 @@ button {
     transition: .15s .25s ease left, .5s .05s ease color;
   }
   .icon.after:before {
-    content: 'Dalej';
+    content: 'Dyskografia';
     position: absolute;
     left: -230px;
     top: 14px;
