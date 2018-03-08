@@ -1,7 +1,10 @@
 jQuery(document).ready(function(){
-  jQuery('#dalej').on('click', function(event) {        
+  jQuery('#dalej').on('click', function(event) {
+    if($('#home').is(':visible')) {        
        jQuery('#home').toggle('hide');
        jQuery('#article2').toggle('show');
+    }
+    
        $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
   });
 });
