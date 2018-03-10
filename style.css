@@ -201,13 +201,33 @@ nav{
     margin-right: 5px;
     color:white;
     font-style: italic;
-    display: inline;
+    display: inline-block;
 }
 
 .opt1{
-    width:100px;
+display: none;
+}
+
+.opt1.isActive{
+    width:80px;
     float: right;
     margin-left:10px;
+    display: block;
+    height: 1px;
+    background-color:#E94E3D;
+    color:#E94E3D;
+    border:1px solid ;
+}
+
+.opt2{
+    display: none;
+}
+
+.opt2.isActive{
+    width:80px;
+    float: right;
+    margin-left:10px;
+    display: block;
     height: 1px;
     background-color:#E94E3D;
     color:#E94E3D;
@@ -344,6 +364,15 @@ button {
     position: absolute;
     animation: fadein 3s;
 }
+
+.article2.isActive{
+    width:92%;
+    height: 91%;
+    display: flex;
+    position: absolute;
+    animation: fadein 3s;
+}
+
 .article2 h1{
     text-align: left;
     font-size: 100px;
