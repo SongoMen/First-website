@@ -187,11 +187,13 @@ nav{
 }
 
 .nav-panel{
+    user-select: none;
     position: fixed;
     bottom: 0;
     right: 0;
     margin-right: 80px;
     float: right;
+    overflow: hidden;
     margin-bottom: 30px;
 }
 
@@ -200,6 +202,16 @@ nav{
     color:white;
     font-style: italic;
     display: inline;
+}
+
+.opt1{
+    width:100px;
+    float: right;
+    margin-left:10px;
+    height: 1px;
+    background-color:#E94E3D;
+    color:#E94E3D;
+    border:1px solid ;
 }
 
 .home{
