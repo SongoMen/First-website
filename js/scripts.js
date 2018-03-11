@@ -51,10 +51,6 @@ jQuery(document).ready(function(){
     jQuery('#opt1').addClass('isActive');
   }
 
-  if($('#dalej2').is(':visible')){
-
-  }
-
   jQuery('#move2').on('click', function(event) {
     if($('#dalej').is(':visible')){
       jQuery('#home').toggle('hide');

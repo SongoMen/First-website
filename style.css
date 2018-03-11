@@ -257,6 +257,7 @@ button {
     letter-spacing: 2px;
     background: none;
     color: white;
+    display: block;
     position: relative;
     outline: none;
     border: none;
