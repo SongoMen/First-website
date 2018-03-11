@@ -3,7 +3,7 @@ jQuery(document).ready(function(){
   jQuery('#dalej').on('click', function(event) {
     jQuery('#home').toggle('hide');
     jQuery('#article2').toggle('show');
-    jQuery('#opt1').toggle('hide');
+    jQuery('#opt1').toggle('isActive');
     $("#opt2").animate({width: 100}, 800 );
     jQuery('#opt2').addClass('isActive');
     $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
