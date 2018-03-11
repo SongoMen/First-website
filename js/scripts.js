@@ -1,8 +1,9 @@
 jQuery(document).ready(function(){
+  
   jQuery('#dalej').on('click', function(event) {
     jQuery('#home').toggle('hide');
     jQuery('#article2').toggle('show');
-    jQuery('#opt1').toggle('isActive');
+    jQuery('#opt1').toggle('hide');
     $("#opt2").animate({width: 100}, 800 );
     jQuery('#opt2').addClass('isActive');
     $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
@@ -37,8 +38,11 @@ jQuery(document).ready(function(){
 
   jQuery('#dalej5').on('click', function(event) {
     jQuery('#article5').toggle('hide');
-    jQuery('#article1').toggle('show');
+    jQuery('#home').toggle('show');
+    jQuery('#opt1').toggle('show');
     jQuery('#opt5').toggle('isActive');
+    $("#opt1").animate({width: 100}, 800 );
+    jQuery('#opt1').addClass('isActive');
     $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
   });
 
@@ -46,6 +50,23 @@ jQuery(document).ready(function(){
     $("#opt1").animate({width: 100}, 800 );
     jQuery('#opt1').addClass('isActive');
   }
+
+  if($('#dalej2').is(':visible')){
+
+  }
+
+  jQuery('#move2').on('click', function(event) {
+    if($('#dalej').is(':visible')){
+      jQuery('#home').toggle('hide');
+      jQuery('#article2').toggle('show');
+      jQuery('#opt1').toggle('isActive');
+      $("#opt2").animate({width: 100}, 800 );
+      jQuery('#opt2').addClass('isActive');
+      $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
+    }
+    
+  });
+
   
 });
 
