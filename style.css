@@ -204,26 +204,11 @@ nav{
     display: inline-block;
 }
 
-.opt1{
+.opt1, .opt2, opt3, opt4, opt5{
 display: none;
 }
 
-.opt1.isActive{
-    width:80px;
-    float: right;
-    margin-left:10px;
-    display: block;
-    height: 1px;
-    background-color:#E94E3D;
-    color:#E94E3D;
-    border:1px solid ;
-}
-
-.opt2{
-    display: none;
-}
-
-.opt2.isActive{
+.opt1.isActive, .opt2.isActive, .opt3.isActive, .opt4.isActive, .opt5.isActive{
     width:80px;
     float: right;
     margin-left:10px;
@@ -281,8 +266,8 @@ button {
     z-index: 2;
     transition: .01s .23s ease-out all;
     overflow: hidden;
-  }
-  button:before {
+}
+button:before {
     content: '';
     position: absolute;
     left: 0;
@@ -292,8 +277,8 @@ button {
     background: #202020;
     z-index: -1;
     transition: .3s ease-in all;
-  }
-  button:after {
+}
+button:after {
     content: '';
     position: absolute;
     left: -5%;
@@ -303,59 +288,199 @@ button {
     background: #E94E3D;
     z-index: -1;
     transition: .4s .02s ease-in all;
-  }
-  button:hover {
+}
+button:hover {
     cursor: pointer;
     color: transparent;
-  }
-  button:hover:before {
+}
+button:hover:before {
     left: 100%;
     width: 25%;
-  }
-  button:hover:after {
+}
+button:hover:after {
     left: 100%;
     width: 70%;
-  }
-  button:hover .icon.after:after {
+}
+
+button:hover .icon.after:after {
     left: -130px;
     color: #E94E3D;
     transition: .2s .2s ease all;
-  }
-  button:hover .icon.after:before {
+}
+button:hover .icon.after:before {
     left: -80px;
     top: 19px;
     opacity: 1;
     color: #E94E3D;
-  }
+}
+
+button:hover .icon2.after:after {
+    left: -130px;
+    color: #E94E3D;
+    transition: .2s .2s ease all;
+}
+button:hover .icon2.after:before {
+    left: -80px;
+    top: 19px;
+    opacity: 1;
+    color: #E94E3D;
+}
+
+button:hover .icon3.after:after {
+    left: -130px;
+    color: #E94E3D;
+    transition: .2s .2s ease all;
+}
+button:hover .icon3.after:before {
+    left: -80px;
+    top: 19px;
+    opacity: 1;
+    color: #E94E3D;
+}
+
+button:hover .icon4.after:after {
+    left: -130px;
+    color: #E94E3D;
+    transition: .2s .2s ease all;
+}
+button:hover .icon4.after:before {
+    left: -80px;
+    top: 19px;
+    opacity: 1;
+    color: #E94E3D;
+}
   
-  .icon {
+button:hover .icon5.after:after {
+    left: -130px;
+    color: #E94E3D;
+    transition: .2s .2s ease all;
+}
+button:hover .icon5.after:before {
+    left: -80px;
+    top: 19px;
+    opacity: 1;
+    color: #E94E3D;
+}
+
+.icon, .icon2, .icon3, .icon4, .icon5 {
     position: absolute;
     top: 0;
     right:0;
-  }
-  .icon:after {
+}
+.icon:after {
     content: '\2192';
     font-size: 24px;
     display: inline-block;
     position: relative;
     top: 7px;
 
-  }
-  .icon.after:after {
+}
+.icon.after:after {
     left: -250px;
     top:12px;
     color: #E94E3D;
     transition: .15s .25s ease left, .5s .05s ease color;
-  }
-  .icon.after:before {
+}
+.icon.after:before {
     content: 'Dyskografia';
     position: absolute;
     left: -230px;
     top: 14px;
     opacity: 0;
     transition: .2s ease-in all;
-  }
+}
 
+.icon2:after {
+    content: '\2192';
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+
+}
+.icon2.after:after {
+    left: -250px;
+    top:12px;
+    color: #E94E3D;
+    transition: .15s .25s ease left, .5s .05s ease color;
+}
+.icon2.after:before {
+    content: 'Historia';
+    position: absolute;
+    left: -230px;
+    top: 14px;
+    opacity: 0;
+    transition: .2s ease-in all;
+}
+
+.icon3:after {
+    content: '\2192';
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+
+}
+.icon3.after:after {
+    left: -250px;
+    top:12px;
+    color: #E94E3D;
+    transition: .15s .25s ease left, .5s .05s ease color;
+}
+.icon3.after:before {
+    content: 'Galeria';
+    position: absolute;
+    left: -230px;
+    top: 14px;
+    opacity: 0;
+    transition: .2s ease-in all;
+}
+
+.icon4:after {
+    content: '\2192';
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+
+}
+.icon4.after:after {
+    left: -250px;
+    top:12px;
+    color: #E94E3D;
+    transition: .15s .25s ease left, .5s .05s ease color;
+}
+.icon4.after:before {
+    content: 'Kontakt';
+    position: absolute;
+    left: -230px;
+    top: 14px;
+    opacity: 0;
+    transition: .2s ease-in all;
+}
+
+.icon5:after {
+    content: '\2192';
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+
+}
+.icon5.after:after {
+    left: -250px;
+    top:12px;
+    color: #E94E3D;
+    transition: .15s .25s ease left, .5s .05s ease color;
+}
+.icon5.after:before {
+    content: 'Home';
+    position: absolute;
+    left: -230px;
+    top: 14px;
+    opacity: 0;
+    transition: .2s ease-in all;
+}
 
 .article2{
     width:92%;
@@ -364,16 +489,67 @@ button {
     position: absolute;
     animation: fadein 3s;
 }
-
-.article2.isActive{
+.article2 h1{
+    text-align: left;
+    font-size: 100px;
+    letter-spacing: 21px;
+    vertical-align: center;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: auto;
+    color:#141414;
+    transition: all 0.9s ease-out;
+}
+.article3{
     width:92%;
     height: 91%;
     display: flex;
     position: absolute;
     animation: fadein 3s;
 }
-
-.article2 h1{
+.article3 h1{
+    text-align: left;
+    font-size: 100px;
+    letter-spacing: 21px;
+    vertical-align: center;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: auto;
+    color:#141414;
+    transition: all 0.9s ease-out;
+}
+.article4{
+    width:92%;
+    height: 91%;
+    display: flex;
+    position: absolute;
+    animation: fadein 3s;
+}
+.article4 h1{
+    text-align: left;
+    font-size: 100px;
+    letter-spacing: 21px;
+    vertical-align: center;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: auto;
+    color:#141414;
+    transition: all 0.9s ease-out;
+}
+.article5{
+    width:92%;
+    height: 91%;
+    display: flex;
+    position: absolute;
+    animation: fadein 3s;
+}
+.article5 h1{
     text-align: left;
     font-size: 100px;
     letter-spacing: 21px;
