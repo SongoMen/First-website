@@ -59,8 +59,7 @@ jQuery(document).ready(function(){
       $("#opt2").animate({width: 100}, 800 );
       jQuery('#opt2').addClass('isActive');
       $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
-    }
-    
+    }   
   });
 
   
