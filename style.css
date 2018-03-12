@@ -232,13 +232,31 @@ display: none;
     text-align: left;
     font-size: 100px;
     letter-spacing: 21px;
-    vertical-align: center;
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 700;
     text-transform: uppercase;
     margin: auto;
     color:#141414;
+    transition: all 0.9s ease-out;
+}
+
+.under-text{
+    width:150px;
+    background-color:#E94E3D;
+    height: 2px;
+    margin:auto;
+}
+
+.home p{
+    z-index: 2;
+    text-align: left;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: auto;
+    color:white;
     transition: all 0.9s ease-out;
 }
 
