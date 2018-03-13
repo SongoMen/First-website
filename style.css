@@ -212,7 +212,7 @@ nav{
     margin-right: 80px;
     float: right;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .nav-panel li{
@@ -547,16 +547,16 @@ button:hover .icon5.after:before {
 }
 
 table{
-    margin-left:auto;
     float:right;
     margin-right:auto;
     color:#E94E3D;
     border-spacing:0 10px;
-    margin-top: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 td{
-    padding:10px;
+    padding:5px;
     padding-left:15px;
     padding-right: 15px;
 }
@@ -637,4 +637,15 @@ td:nth-child(1){
     margin: auto;
     color:#141414;
     transition: all 0.9s ease-out;
+}
+
+footer{
+    background-color: #20202042;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width:100%;
+    z-index: 50;
 }
