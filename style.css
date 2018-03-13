@@ -12,7 +12,19 @@
     font-weight: 300;
     font-style: normal;
 }
-
+h1{
+    display: inline;
+    transition: background-size .3s ease;
+    background: linear-gradient(to bottom, transparent 62%, #E94E3D 0) center center/0% 75% no-repeat;
+    cursor: pointer;
+}
+h1:hover {
+    background-size: 100% 100%;
+  }
+  
+h1:active {
+    background-size: 80% 100%;
+  }
 a{
     text-decoration: none;
 }
@@ -245,7 +257,7 @@ display: none;
     animation: fadein 3s;
 }
 
-.home h1{
+.home h2{
     z-index: 2;
     text-align: left;
     font-size: 90px;
@@ -255,6 +267,7 @@ display: none;
     font-weight: 700;
     text-transform: uppercase;
     margin: auto;
+    margin-left: 30px;
     color:white;
     transition: all 0.9s ease-out;
 }
@@ -278,15 +291,39 @@ display: none;
     text-transform: uppercase;
     margin: auto;
     color:white;
-    margin-left:-50px;
+    margin-left:-100px;
     transition: all 0.9s ease-out;
 }
 
-.home h1:hover{
+.home h2:hover{
     text-shadow: 0px 0px 10px #E94E3D;
     color:#E94E3D;
 }
 
+.title-span3{
+    position: absolute;
+    margin-top:210px;
+    margin-bottom: auto;
+    margin-left: -15px;
+    width:1px;
+    height: 70px;
+    background-color:#292929;
+}
+
+.title-home p{
+    text-transform: none;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+    letter-spacing: 0px;
+    margin-top:350px;
+    margin-bottom: auto;
+    margin-left: -80px;
+    transform:rotate(-90deg);
+    color:#292929;
+}
 
 .dalej{
     margin-top:auto;
@@ -546,6 +583,11 @@ button:hover .icon5.after:before {
     transition: all 0.9s ease-out;
 }
 
+.title-dysk, .title-historia, .title-kontakt, .title-home, .title-galeria{
+    user-select: none;
+    font-size:17px;
+}
+
 .title-dysk p{
     position: absolute;
     margin-top:350px;
@@ -567,14 +609,10 @@ button:hover .icon5.after:before {
 
 table{
     letter-spacing: 1px;
-    float:right;
-    margin-right:auto;
-    margin-left: 30px;
+    margin:auto auto auto 30px;
     color:#E94E3D;
     font-size: 13px;
     border-spacing:0 10px;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 td{
@@ -607,19 +645,45 @@ td:nth-child(1){
     position: absolute;
     animation: fadein 3s;
 }
-.article3 h1{
-    text-align: left;
-    font-size: 100px;
-    letter-spacing: 21px;
-    vertical-align: center;
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: auto;
-    color:#141414;
-    transition: all 0.9s ease-out;
+
+.title-historia p{
+    position: absolute;
+    margin-top:350px;
+    margin-bottom: auto;
+    margin-left: -60px;
+    transform:rotate(-90deg);
+    color:#292929;
 }
+
+.title-span2{
+    position: absolute;
+    margin-top:240px;
+    margin-bottom: auto;
+    margin-left: -27px;
+    width:1px;
+    height: 70px;
+    background-color:#292929;
+}
+
+.text {
+    word-spacing: 7px;
+    letter-spacing: 1px;
+    margin:auto auto auto 10px;
+    color:white;
+    width:78%;
+    font-size:20px;
+    font-family: 'Montserrat';
+}
+
+.text h1{
+    color:white;
+    letter-spacing: 4px;
+    font-family: Geomanist2;
+    margin:0;
+    font-size:20px;
+    font-style: italic;
+}
+
 .article4{
     width:92%;
     height: 91%;
