@@ -12,6 +12,11 @@
 </head>
 <body>
     <div id="trans"></div>
+    <div class="wrapper-menu">
+        <div class="line-menu half start"></div>
+        <div class="line-menu"></div>
+        <div class="line-menu half end"></div>
+    </div>
     <header>
         <div class="header-logo">
             <a href="index.html"><img src="images/logo.png" alt="logo" style="width:350px;width:350px"/></a>
@@ -25,11 +30,6 @@
                 <li><a href="kontakt.html">Kontakt</a></li>
             </ul>
         </nav>
-        <div class="wrapper-menu">
-            <div class="line-menu half start"></div>
-            <div class="line-menu"></div>
-            <div class="line-menu half end"></div>
-        </div>
     </header>
     <section class="nav-panel">
         <ul>
@@ -46,7 +46,6 @@
             <span class="under-text"></span>
             <p>Założona w 2008 roku.</p>
             <button id="dalej" class="dalej">Dalej<span class="icon"></span><span class="icon after"></span></button>
-            <div class="bg1"></div>
         </article>
 
         <article class="article2" id="article2" style="display: none">
@@ -72,10 +71,10 @@
     <script>
         var wrapperMenu = document.querySelector('.wrapper-menu');
         var Nav = document.querySelector('.navigation');
-
         wrapperMenu.addEventListener('click', function(){
-        wrapperMenu.classList.toggle('open');  
-        Nav.classList.toggle('isActive');
+            $( "#navigation" ).toggle( "slide" );
+            wrapperMenu.classList.toggle('open');
+            Nav.classList.toggle('isActive');
         })      
     </script>
 </body>
