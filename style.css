@@ -155,11 +155,13 @@ nav{
     margin-top:17px;
 }
 .wrapper-menu {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+    top:5px;
     display: flex;
     float:right;
-    margin-right: 120px;
+    z-index: 50;
+    right: 100px;
     position: relative;
     flex-direction: column;
     justify-content: space-between;
@@ -175,7 +177,7 @@ nav{
     background-color: #fff;
     border-radius: 5px;
     width: 100%;
-    height: 4px;
+    height: 3.5px;
   }
   
   .line-menu.half {
@@ -543,6 +545,39 @@ button:hover .icon5.after:before {
     color:#141414;
     transition: all 0.9s ease-out;
 }
+
+table{
+    margin-left:auto;
+    float:right;
+    margin-right:auto;
+    color:#E94E3D;
+    border-spacing:0 10px;
+    margin-top: 50px;
+}
+
+td{
+    padding:10px;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+tr{
+    padding: 15px 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.37);
+}
+tr:nth-child(1){
+    color:white;
+    font-family: 'Montserrat';
+    font-style: italic;
+    background-color:#E94E3D;
+}
+
+td:nth-child(1){
+    width:500px;
+    padding-right: 180px;
+    height:40px;
+}
+
 .article3{
     width:92%;
     height: 91%;
