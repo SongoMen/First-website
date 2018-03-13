@@ -15,7 +15,7 @@ jQuery(document).ready(function(){
   jQuery('#dalej2').on('click', function(event) {
     jQuery('#page-trans').toggle('show');
     jQuery('#article2').delay(1000).toggle('hide');
-    jQuery('#article3').delay(1000).toggle('show');
+    jQuery('#article3').delay(900).toggle('show');
     jQuery('#opt2').toggle('isActive');
     jQuery('#page-trans').delay(1200).toggle('hide');
     $("#opt3").animate({width: 100}, 800 );
@@ -25,8 +25,8 @@ jQuery(document).ready(function(){
 
   jQuery('#dalej3').on('click', function(event) {
     jQuery('#page-trans').toggle('show');
-    jQuery('#article3').delay(800).toggle('hide');
-    jQuery('#article4').delay(800).toggle('show');
+    jQuery('#article3').delay(1000).toggle('hide');
+    jQuery('#article4').delay(900).toggle('show');
     jQuery('#opt3').toggle('isActive');
     jQuery('#page-trans').delay(1200).toggle('hide');
     $("#opt4").animate({width: 100}, 800 );
@@ -36,8 +36,8 @@ jQuery(document).ready(function(){
 
   jQuery('#dalej4').on('click', function(event) {
     jQuery('#page-trans').toggle('show');
-    jQuery('#article4').delay(800).toggle('hide');
-    jQuery('#article5').delay(800).toggle('show');
+    jQuery('#article4').delay(1000).toggle('hide');
+    jQuery('#article5').delay(900).toggle('show');
     jQuery('#opt4').toggle('isActive');
     jQuery('#page-trans').delay(1200).toggle('hide');
     $("#opt5").animate({width: 100}, 800 );
@@ -46,9 +46,11 @@ jQuery(document).ready(function(){
   });
 
   jQuery('#dalej5').on('click', function(event) {
-    jQuery('#article5').toggle('hide');
-    jQuery('#home').toggle('show');
+    jQuery('#page-trans').toggle('show');
+    jQuery('#article5').delay(900).toggle('hide');
+    jQuery('#home').delay(900).toggle('show');
     jQuery('#opt1').toggle('show');
+    jQuery('#page-trans').delay(1200).toggle('hide');
     jQuery('#opt5').toggle('isActive');
     $("#opt1").animate({width: 100}, 800 );
     jQuery('#opt1').addClass('isActive');
