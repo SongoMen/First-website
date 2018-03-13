@@ -246,7 +246,7 @@ display: none;
 .home h1{
     z-index: 2;
     text-align: left;
-    font-size: 100px;
+    font-size: 90px;
     letter-spacing: 21px;
     font-family: 'Montserrat';
     font-style: italic;
@@ -258,23 +258,25 @@ display: none;
 }
 
 .under-text{
-    width:150px;
+    width:100px;
     background-color:#E94E3D;
     height: 2px;
     margin:auto;
-    margin-right:10px;
+    margin-left:-70px;
 }
 
 .home p{
     z-index: 2;
     text-align: left;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    user-select: none;
     font-style: italic;
+    font-size:15px;
     font-weight: 700;
     text-transform: uppercase;
     margin: auto;
     color:white;
-    margin-right:300px;
+    margin-left:-50px;
     transition: all 0.9s ease-out;
 }
 
@@ -306,7 +308,17 @@ button {
     transition: .01s .23s ease-out all;
     overflow: hidden;
 }
-
+button:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 55%;
+    background: #202020;
+    z-index: -1;
+    transition: .3s ease-in all;
+}
 button:after {
     content: '';
     position: absolute;
