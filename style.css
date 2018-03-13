@@ -546,19 +546,41 @@ button:hover .icon5.after:before {
     transition: all 0.9s ease-out;
 }
 
+.title-dysk p{
+    position: absolute;
+    margin-top:350px;
+    margin-bottom: auto;
+    margin-left: -60px;
+    transform:rotate(-90deg);
+    color:#292929;
+}
+
+.title-span{
+    position: absolute;
+    margin-top:230px;
+    margin-bottom: auto;
+    margin-left: -10px;
+    width:1px;
+    height: 70px;
+    background-color:#292929;
+}
+
 table{
+    letter-spacing: 1px;
     float:right;
     margin-right:auto;
+    margin-left: 30px;
     color:#E94E3D;
+    font-size: 13px;
     border-spacing:0 10px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 td{
-    padding:5px;
-    padding-left:15px;
-    padding-right: 15px;
+    padding:3px;
+    padding-left:10px;
+    padding-right: 10px;
 }
 
 tr{
