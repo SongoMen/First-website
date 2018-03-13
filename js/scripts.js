@@ -210,6 +210,195 @@ jQuery(document).ready(function(){
     }     
   });
 
+  jQuery('#move3').on('click', function(event) {
+    if($('#home').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#home').delay(800).toggle('hide');
+      jQuery('#article3').delay(800).toggle('show');
+      jQuery('#opt1').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt3').hasClass('isActive')){
+        jQuery('#opt3').toggle();
+      }
+      else{
+        jQuery('#opt3').addClass('isActive');
+      }
+      $("#opt3").animate({width: 100}, 800 );
+       
+    } 
+    if($('#article2').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#article2').delay(800).toggle('hide');
+      jQuery('#article3').delay(800).toggle('show');
+      jQuery('#opt2').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt3').hasClass('isActive')){
+        jQuery('#opt3').toggle();
+      }
+      else{
+        jQuery('#opt3').addClass('isActive');
+      }
+      $("#opt3").animate({width: 100}, 800 );
+       
+    }
+    if($('#article4').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#article4').delay(800).toggle('hide');
+      jQuery('#article3').delay(800).toggle('show');
+      jQuery('#opt4').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt3').hasClass('isActive')){
+        jQuery('#opt3').toggle();
+      }
+      else{
+        jQuery('#opt3').addClass('isActive');
+      }
+      $("#opt3").animate({width: 100}, 800 );
+       
+    }       
+    if($('#article5').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#article5').delay(800).toggle('hide');
+      jQuery('#article3').delay(800).toggle('show');
+      jQuery('#opt5').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt3').hasClass('isActive')){
+        jQuery('#opt3').toggle();
+      }
+      else{
+        jQuery('#opt3').addClass('isActive');
+      }
+      $("#opt3").animate({width: 100}, 800 );
+       
+    }     
+  });
+
+  jQuery('#move4').on('click', function(event) {
+    if($('#home').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#home').delay(800).toggle('hide');
+      jQuery('#article4').delay(800).toggle('show');
+      jQuery('#opt1').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt4').hasClass('isActive')){
+        jQuery('#opt4').toggle();
+      }
+      else{
+        jQuery('#opt4').addClass('isActive');
+      }
+      $("#opt4").animate({width: 100}, 800 );
+       
+    } 
+    if($('#article2').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#article2').delay(800).toggle('hide');
+      jQuery('#article4').delay(800).toggle('show');
+      jQuery('#opt2').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt4').hasClass('isActive')){
+        jQuery('#opt4').toggle();
+      }
+      else{
+        jQuery('#opt4').addClass('isActive');
+      }
+      $("#opt4").animate({width: 100}, 800 );
+       
+    }
+    if($('#article3').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#article3').delay(800).toggle('hide');
+      jQuery('#article4').delay(800).toggle('show');
+      jQuery('#opt3').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt4').hasClass('isActive')){
+        jQuery('#opt4').toggle();
+      }
+      else{
+        jQuery('#opt4').addClass('isActive');
+      }
+      $("#opt4").animate({width: 100}, 800 );
+       
+    }       
+    if($('#article5').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#article5').delay(800).toggle('hide');
+      jQuery('#article4').delay(800).toggle('show');
+      jQuery('#opt5').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt4').hasClass('isActive')){
+        jQuery('#opt4').toggle();
+      }
+      else{
+        jQuery('#opt4').addClass('isActive');
+      }
+      $("#opt4").animate({width: 100}, 800 );
+       
+    }     
+  });
+
+  jQuery('#move5').on('click', function(event) {
+    if($('#home').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#home').delay(800).toggle('hide');
+      jQuery('#article5').delay(800).toggle('show');
+      jQuery('#opt1').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt5').hasClass('isActive')){
+        jQuery('#opt5').toggle();
+      }
+      else{
+        jQuery('#opt5').addClass('isActive');
+      }
+      $("#opt5").animate({width: 100}, 800 );
+       
+    } 
+    if($('#article2').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#article2').delay(800).toggle('hide');
+      jQuery('#article5').delay(800).toggle('show');
+      jQuery('#opt2').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt5').hasClass('isActive')){
+        jQuery('#opt5').toggle();
+      }
+      else{
+        jQuery('#opt5').addClass('isActive');
+      }
+      $("#opt5").animate({width: 100}, 800 );
+       
+    }
+    if($('#article3').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#article3').delay(800).toggle('hide');
+      jQuery('#article5').delay(800).toggle('show');
+      jQuery('#opt3').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt5').hasClass('isActive')){
+        jQuery('#opt5').toggle();
+      }
+      else{
+        jQuery('#opt5').addClass('isActive');
+      }
+      $("#opt5").animate({width: 100}, 800 );
+       
+    }       
+    if($('#article4').is(':visible')){
+      jQuery('#page-trans').toggle('show');
+      jQuery('#article4').delay(800).toggle('hide');
+      jQuery('#article5').delay(800).toggle('show');
+      jQuery('#opt4').toggle('isActive');
+      jQuery('#page-trans').delay(1200).toggle('hide');
+      if($('#opt5').hasClass('isActive')){
+        jQuery('#opt5').toggle();
+      }
+      else{
+        jQuery('#opt5').addClass('isActive');
+      }
+      $("#opt5").animate({width: 100}, 800 );
+       
+    }     
+  });
+
   
 });
 
