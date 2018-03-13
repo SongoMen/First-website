@@ -2,36 +2,44 @@
 jQuery(document).ready(function(){
   
   jQuery('#dalej').on('click', function(event) {
-    jQuery('#home').toggle('hide');
-    jQuery('#article2').toggle('show');
+    jQuery('#page-trans').toggle('show');
+    jQuery('#home').delay(800).toggle('hide');
+    jQuery('#article2').delay(800).toggle('show');
     jQuery('#opt1').toggle('hide');
+    jQuery('#page-trans').delay(1200).toggle('hide');
     $("#opt2").animate({width: 100}, 800 );
     jQuery('#opt2').addClass('isActive');
     $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
   });
 
   jQuery('#dalej2').on('click', function(event) {
-    jQuery('#article2').toggle('hide');
-    jQuery('#article3').toggle('show');
+    jQuery('#page-trans').toggle('show');
+    jQuery('#article2').delay(1000).toggle('hide');
+    jQuery('#article3').delay(1000).toggle('show');
     jQuery('#opt2').toggle('isActive');
+    jQuery('#page-trans').delay(1200).toggle('hide');
     $("#opt3").animate({width: 100}, 800 );
     jQuery('#opt3').addClass('isActive');
     $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
   });
 
   jQuery('#dalej3').on('click', function(event) {
-    jQuery('#article3').toggle('hide');
-    jQuery('#article4').toggle('show');
+    jQuery('#page-trans').toggle('show');
+    jQuery('#article3').delay(800).toggle('hide');
+    jQuery('#article4').delay(800).toggle('show');
     jQuery('#opt3').toggle('isActive');
+    jQuery('#page-trans').delay(1200).toggle('hide');
     $("#opt4").animate({width: 100}, 800 );
     jQuery('#opt4').addClass('isActive');
     $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
   });
 
   jQuery('#dalej4').on('click', function(event) {
-    jQuery('#article4').toggle('hide');
-    jQuery('#article5').toggle('show');
+    jQuery('#page-trans').toggle('show');
+    jQuery('#article4').delay(800).toggle('hide');
+    jQuery('#article5').delay(800).toggle('show');
     jQuery('#opt4').toggle('isActive');
+    jQuery('#page-trans').delay(1200).toggle('hide');
     $("#opt5").animate({width: 100}, 800 );
     jQuery('#opt5').addClass('isActive');
     $("#trans").animate( { "opacity": "show", top:"100"} , 500 );
