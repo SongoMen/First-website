@@ -648,7 +648,7 @@ td:nth-child(1){
 
 .title-historia p{
     position: absolute;
-    margin-top:350px;
+    margin-top:370px;
     margin-bottom: auto;
     margin-left: -60px;
     transform:rotate(-90deg);
@@ -657,7 +657,7 @@ td:nth-child(1){
 
 .title-span2{
     position: absolute;
-    margin-top:240px;
+    margin-top:260px;
     margin-bottom: auto;
     margin-left: -27px;
     width:1px;
