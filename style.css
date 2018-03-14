@@ -132,6 +132,9 @@ header{
     width:100%;
     position: static;
 }
+li{
+    display: inline;
+}
 ul {
     margin:0;
     padding:0;
@@ -718,6 +721,23 @@ td:nth-child(1){
     transition: all 0.9s ease-out;
 }
 
+.article4 img{
+    width:350px;
+    float:left;
+    height: 200px;
+    padding: 30px;
+}
+
+.item1, .item2, .item3{
+    margin-top:100px;
+
+}
+
+.item4, .item5{
+    margin-bottom:100px;
+}
+
+
 .title-galeria p{
     position: absolute;
     margin-top:350px;
@@ -767,4 +787,11 @@ footer{
     height: 70px;
     width:100%;
     z-index: 50;
+}
+
+.data{
+    position: relative;
+    display: inline;
+    color:white;
+    margin:auto;
 }
