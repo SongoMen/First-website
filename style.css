@@ -721,8 +721,13 @@ td:nth-child(1){
     transition: all 0.9s ease-out;
 }
 
+#dalej4{
+    margin-left:-800px;
+}
+
 .article4 img{
     width:350px;
+    display: block;
     float:left;
     height: 200px;
     padding: 30px;
@@ -734,7 +739,10 @@ td:nth-child(1){
 }
 
 .item4, .item5{
-    margin-bottom:100px;
+    position: relative;
+    float: left;
+    left:-1050px;
+    top:350px;
 }
 
 
