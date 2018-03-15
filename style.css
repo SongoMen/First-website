@@ -805,6 +805,7 @@ input{
     border-bottom: 2px solid #292929;
     margin-top:-5px;
     outline:none;
+    color:#ffffff;
     font-size: 20px;
     background-color: #0e0e0e;
     font-family: Montserrat;
@@ -817,13 +818,17 @@ textarea{
     font-size: 20px;
     font-family: Montserrat;
     border-bottom:2px solid #292929;
-    transition: ease-in-out, all .5s ease-in-out;
+    transition: ease-in-out, border .5s ease-in-out;
+    max-width: 700px;
+    max-height: 150px;
 
 }
 input[type="submit"]{
     margin-top:20px;
     text-transform:uppercase;
     outline: none;
+    color:#292929;
+    background-color: #ffffff;
     letter-spacing:2px;
     border:0;
     width:150px;
@@ -838,12 +843,19 @@ input[type=text]:focus{
 textarea:focus{
     border-bottom: 2px solid #ffffff;
     outline:0px !important;
+}
 
+input:valid{
+    border-bottom: 2px solid green;
+}
+
+textarea:valid{
+    border-bottom: 2px solid green;
 }
 
 input[type=submit]:hover{
-    background-color:#222220;
-    color:white;
+    background-color:#E94E3D;
+    color:#ffffff;
 }
 
 .title-kontakt p{
