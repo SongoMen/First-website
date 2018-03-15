@@ -110,7 +110,20 @@
         </article>
 
         <article class="article5" id="article5" style="display: none">
-            <h1>Imagine<br/> babans</h1>
+            <div class="title-kontakt">
+                <p>Kontakt</p><span class="title-span"></span>
+            </div>
+            <div class=form>
+                <form action="mailto:email@gmail.com" method="POST">
+                    <label type="text" name="Name">Imię</label><br/>
+                    <input class='text-input' id='name' name='name' required type='text'><br/>
+                    <label type="text" name="Name">Temat</label><br/>
+                    <input class='text-input' id='text' name='text' required type='text'><br/>
+                    <label type="text" name="Name">Wiadomość</label><br/>   
+                    <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea><br/>
+                    <input class='button' type='submit' value='Wyślij !'>
+                </form>
+            </div>
             <button id="dalej5" class="dalej">Wróć<span class="icon"></span><span class="icon5 after"></span></button>
         </article>
     </div>
@@ -124,7 +137,7 @@
                 <li><a href="#" id="move5">Kontakt</a></li>
             </ul>
         </nav>
-        <p class="data"><script style="display:inline">document.write(today)</script></p>
+        <p class="data"><script>document.write(today)</script></p>
         <section class="nav-panel">
             <ul>
                 <li><span class="opt1" id="opt1"></span>01</li>

@@ -24,7 +24,7 @@ a{
 }
 
 body{
-    margin:30px 60px 30px 50px;
+    margin:30px 30px 30px 30px;
     font-family:Montserrat;
     background-color:#0e0e0e;
     width:92%;
@@ -263,6 +263,11 @@ display: none;
     background-color:#E94E3D;
     color:#E94E3D;
     border:1px solid ;
+}
+
+.title{
+    float:left;
+    width:5%;
 }
 
 .home{
@@ -786,6 +791,70 @@ td:nth-child(1){
     transition: all 0.9s ease-out;
 }
 
+form{
+    margin-top:140px;
+    font-size:25px;
+    margin-left:50px;
+    border:0px;
+    color:#E94E3D;
+}
+
+input{
+    height:50px;
+    border:0;
+    border-bottom: 2px solid #292929;
+    margin-top:-5px;
+    outline:none;
+    font-size: 20px;
+    background-color: #0e0e0e;
+    font-family: Montserrat;
+    transition: ease-in-out, all .5s ease-in-out;
+    margin-bottom: 30px;
+}
+textarea{
+    background-color: #0e0e0e;
+    border:0;
+    font-size: 20px;
+    font-family: Montserrat;
+    border-bottom:2px solid #292929;
+    transition: ease-in-out, all .5s ease-in-out;
+
+}
+input[type="submit"]{
+    margin-top:20px;
+    text-transform:uppercase;
+    outline: none;
+    letter-spacing:2px;
+    border:0;
+    width:150px;
+    font-family: Montserrat;
+    transition: ease-in-out, all .5s ease-in-out;   
+}
+
+input[type=text]:focus{
+    border-bottom: 2px solid #ffffff;
+    
+}
+textarea:focus{
+    border-bottom: 2px solid #ffffff;
+    outline:0px !important;
+
+}
+
+input[type=submit]:hover{
+    background-color:#222220;
+    color:white;
+}
+
+.title-kontakt p{
+    position: absolute;
+    margin-top:350px;
+    margin-bottom: auto;
+    margin-left: -45px;
+    transform:rotate(-90deg);
+    color:#292929;
+}
+
 footer{
     background-color: #20202042;
     position: absolute;
@@ -802,4 +871,55 @@ footer{
     display: inline;
     color:white;
     margin:auto;
+}
+
+@media (max-width:500px){
+
+    body{
+
+        margin:10px 10px 10px 10px;
+    }
+
+    .wrapper-menu{
+        display: none;
+    }
+
+    .home h2{
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-top: 120px;
+        float:left;
+    }
+
+    .home p{
+        margin-left:-280px;
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+
+    .under-text{
+        display: none;
+    }
+
+    .dalej{
+        float:right;
+        margin-top:300px;
+        margin-left:-200px;
+        width: 50%;
+    }
+
+    footer{
+        display: none;
+    }
+}
+@media (max-width:1500px){
+    .under-text{
+        margin-top:470px;
+        margin-left:0;
+    }
+
+    .home p{
+        margin-left:0;
+        margin-top:500px;
+    }
 }
