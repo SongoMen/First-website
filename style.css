@@ -793,8 +793,8 @@ td:nth-child(1){
 
 form{
     margin-top:140px;
-    font-size:25px;
-    margin-left:50px;
+    font-size:22px;
+    margin-left:100px;
     border:0px;
     color:#E94E3D;
 }
@@ -829,6 +829,7 @@ input[type="submit"]{
     outline: none;
     color:#292929;
     background-color: #ffffff;
+    border-bottom: 0px;
     letter-spacing:2px;
     border:0;
     width:150px;
@@ -845,7 +846,7 @@ textarea:focus{
     outline:0px !important;
 }
 
-input:valid{
+input[type=text]:valid{
     border-bottom: 2px solid green;
 }
 
@@ -865,6 +866,10 @@ input[type=submit]:hover{
     margin-left: -45px;
     transform:rotate(-90deg);
     color:#292929;
+}
+
+#dalej5{
+    margin-left:600px;
 }
 
 footer{
