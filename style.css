@@ -671,7 +671,7 @@ td:nth-child(1){
     position: absolute;
     margin-top:370px;
     margin-bottom: auto;
-    margin-left: -60px;
+    margin-left: -50px;
     transform:rotate(-90deg);
     color:#292929;
 }
@@ -680,7 +680,7 @@ td:nth-child(1){
     position: absolute;
     margin-top:260px;
     margin-bottom: auto;
-    margin-left: -27px;
+    margin-left: -17px;
     width:1px;
     height: 70px;
     background-color:#292929;
@@ -731,10 +731,10 @@ td:nth-child(1){
 }
 
 .article4 img{
-    width:350px;
+    width:22.5vw;
+    height: 22.5vh;
     display: block;
     float:left;
-    height: 200px;
     padding: 30px;
 }
 
