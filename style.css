@@ -281,7 +281,7 @@ display: none;
 .home h2{
     z-index: 2;
     text-align: left;
-    font-size: 90px;
+    font-size: 5vw;
     letter-spacing: 21px;
     font-family: 'Montserrat';
     font-style: italic;
@@ -312,7 +312,7 @@ display: none;
     text-transform: uppercase;
     margin: auto;
     color:white;
-    margin-left:-100px;
+    margin-left:0px;
     transition: all 0.9s ease-out;
 }
 
@@ -873,7 +873,6 @@ input[type=submit]:hover{
 }
 
 footer{
-    
     background-color: #20202042;
     position: absolute;
     right: 0;
@@ -885,62 +884,30 @@ footer{
 }
 
 .data{
-    font-style: italic;
     position: relative;
     color:white;
-    color:#E94E3D;
     top:-70px;
+    font-weight: 100;
     margin-left:920px;
     margin-right:auto;
 }
 
-@media (max-width:500px){
-
-    body{
-
-        margin:10px 10px 10px 10px;
-    }
-
-    .wrapper-menu{
-        display: none;
-    }
-
+@media (max-width:1300px){
     .home h2{
-        font-size: 30px;
-        letter-spacing: 2px;
-        margin-top: 120px;
-        float:left;
+        font-size: 4vw;
     }
-
-    .home p{
-        margin-left:-280px;
-        letter-spacing: 1px;
-        font-size: 15px;
-    }
-
     .under-text{
-        display: none;
+        margin-left:-40px;
     }
-
-    .dalej{
-        float:right;
-        margin-top:300px;
-        margin-left:-200px;
-        width: 50%;
+    .subtext{
+        margin-left:0px !important;
     }
-
-    footer{
-        display: none;
+    .data{
+        margin-bottom: 50px !important;
+        margin:auto;
+        margin-left:820px;
     }
-}
-@media (max-width:1500px){
-    .under-text{
-        margin-top:470px;
-        margin-left:0;
-    }
-
-    .home p{
-        margin-left:0;
-        margin-top:500px;
+    footer nav{
+        margin-bottom: 28px !important;
     }
 }
