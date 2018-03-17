@@ -84,7 +84,7 @@ jQuery(document).ready(function(){
     jQuery('#opt1').addClass('isActive');
   }
 
-  jQuery('#move1').on('click', function(event) {
+  jQuery('#move1, #move6').on('click', function(event) {
     if($('#article2').is(':visible')){
       jQuery('#page-trans').toggle('show');
       jQuery('#article2').delay(800).toggle('hide');
@@ -147,7 +147,7 @@ jQuery(document).ready(function(){
     }     
   });
 
-  jQuery('#move2').on('click', function(event) {
+  jQuery('#move2, #move7').on('click', function(event) {
     if($('#home').is(':visible')){
       jQuery('#page-trans').toggle('show');
       jQuery('#home').delay(800).toggle('hide');
@@ -210,7 +210,7 @@ jQuery(document).ready(function(){
     }     
   });
 
-  jQuery('#move3').on('click', function(event) {
+  jQuery('#move3, #move8').on('click', function(event) {
     if($('#home').is(':visible')){
       jQuery('#page-trans').toggle('show');
       jQuery('#home').delay(800).toggle('hide');
@@ -273,7 +273,7 @@ jQuery(document).ready(function(){
     }     
   });
 
-  jQuery('#move4').on('click', function(event) {
+  jQuery('#move4, #move9').on('click', function(event) {
     if($('#home').is(':visible')){
       jQuery('#page-trans').toggle('show');
       jQuery('#home').delay(800).toggle('hide');
@@ -336,7 +336,7 @@ jQuery(document).ready(function(){
     }     
   });
 
-  jQuery('#move5').on('click', function(event) {
+  jQuery('#move5, #move10').on('click', function(event) {
     if($('#home').is(':visible')){
       jQuery('#page-trans').toggle('show');
       jQuery('#home').delay(800).toggle('hide');
