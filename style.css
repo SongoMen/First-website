@@ -271,7 +271,7 @@ display: none;
 }
 
 .home{
-    width:92%;
+    width:93%;
     height: 91%;
     display: flex;
     position: absolute;
@@ -722,28 +722,17 @@ td:nth-child(1){
     transition: all 0.9s ease-out;
 }
 
-#dalej4{
-    margin-left:-800px;
-}
-
 .article4 img{
     width:22.5vw;
     height: 22.5vh;
+    margin-top:9vh;
     display: block;
     float:left;
     padding: 30px;
 }
 
-.item1, .item2, .item3{
-    margin-top:100px;
-
-}
-
-.item4, .item5{
-    position: relative;
-    float: left;
-    left:-1050px;
-    top:350px;
+.row2{
+    margin-left:15vw;
 }
 
 .title-galeria p{
