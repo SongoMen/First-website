@@ -316,10 +316,6 @@ display: none;
     transition: all 0.9s ease-out;
 }
 
-.home h2:hover{
-    text-shadow: 0px 0px 10px #E94E3D;
-    color:#E94E3D;
-}
 
 .title-span3{
     position: absolute;
