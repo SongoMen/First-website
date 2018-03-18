@@ -27,7 +27,7 @@ body{
     margin:30px 30px 30px 30px;
     font-family:Montserrat;
     background-color:#0e0e0e;
-    width:92%;
+    width:94%;
     height:100vh;
     overflow: hidden;
 }
@@ -145,7 +145,7 @@ ul {
     text-align: right;
     text-transform: uppercase;
     color:white;
-    font-size: 16px;
+    font-size: 1.1vw;
     position: relative;
     transition: color .2s ease;
     padding: 7px 8px;
@@ -236,13 +236,13 @@ nav{
     user-select: none;
     position: fixed;
     bottom: 0;
+    font-size:1.2vw;
     right: 0;
-    margin-right: 80px;
+    margin-right: 5vw;
     float: right;
     overflow: hidden;
-    margin-bottom: 25px;
+    margin-bottom: 1.5vw;
 }
-
 .nav-panel li{
     margin-right: 5px;
     color:white;
@@ -323,7 +323,7 @@ display: none;
 
 .title-span3{
     position: absolute;
-    margin-top:220px;
+    margin-top:32vh;
     margin-bottom: auto;
     margin-left: -15px;
     width:1px;
@@ -339,7 +339,7 @@ display: none;
     font-weight: 100;
     font-size: 17px;
     letter-spacing: 0px;
-    margin-top:360px;
+    margin-top:52vh;
     margin-bottom: auto;
     margin-left: -80px;
     transform:rotate(-90deg);
@@ -611,7 +611,7 @@ button:hover .icon5.after:before {
 
 .title-dysk p{
     position: absolute;
-    margin-top:350px;
+    margin-top:52vh;
     margin-bottom: auto;
     margin-left: -60px;
     transform:rotate(-90deg);
@@ -620,9 +620,9 @@ button:hover .icon5.after:before {
 
 .title-span{
     position: absolute;
-    margin-top:230px;
+    margin-top:35vh;
     margin-bottom: auto;
-    margin-left: -10px;
+    margin-left: -7px;
     width:1px;
     height: 5vw;
     background-color:#292929;
@@ -638,8 +638,8 @@ table{
 
 td{
     padding:3px;
-    padding-left:10px;
-    padding-right: 10px;
+    padding-left:1vw;
+    padding-right: 1vw;
 }
 
 tr{
@@ -669,7 +669,7 @@ td:nth-child(1){
 
 .title-historia p{
     position: absolute;
-    margin-top:370px;
+    margin-top:54vh;
     margin-bottom: auto;
     margin-left: -50px;
     transform:rotate(-90deg);
@@ -678,9 +678,9 @@ td:nth-child(1){
 
 .title-span2{
     position: absolute;
-    margin-top:260px;
+    margin-top:38vh;
     margin-bottom: auto;
-    margin-left: -17px;
+    margin-left: -16px;
     width:1px;
     height: 5vw;
     background-color:#292929;
@@ -752,7 +752,7 @@ td:nth-child(1){
 
 .title-galeria p{
     position: absolute;
-    margin-top:350px;
+    margin-top:50vh;
     margin-bottom: auto;
     margin-left: -45px;
     transform:rotate(-90deg);
@@ -761,7 +761,7 @@ td:nth-child(1){
 
 .title-span4{
     position: absolute;
-    margin-top:250px;
+    margin-top:35vh;
     margin-bottom: auto;
     margin-left: -15px;
     width:1px;
@@ -861,11 +861,21 @@ input[type=submit]:hover{
 
 .title-kontakt p{
     position: absolute;
-    margin-top:350px;
+    margin-top:50vh;
     margin-bottom: auto;
     margin-left: -45px;
     transform:rotate(-90deg);
     color:#292929;
+}
+
+.title-span5{
+    position: absolute;
+    margin-top:36vh;
+    margin-bottom: auto;
+    margin-left: -10px;
+    width:1px;
+    height: 5vw;
+    background-color:#292929;
 }
 
 #dalej5{
@@ -886,10 +896,9 @@ footer{
 .data{
     position: relative;
     color:white;
-    top:-70px;
+    top:-9vh;
     font-weight: 100;
-    margin-left:920px;
-    margin-right:auto;
+    margin-left:60vw;
 }
 
 @media (max-width:1300px){
@@ -901,11 +910,6 @@ footer{
     }
     .subtext{
         margin-left:0px !important;
-    }
-    .data{
-        margin-bottom: 50px !important;
-        margin:auto;
-        margin-left:820px;
     }
     footer nav{
         margin-bottom: 28px !important;
