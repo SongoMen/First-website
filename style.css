@@ -627,10 +627,10 @@ button:hover .icon5.after:before {
 
 table{
     letter-spacing: 1px;
-    margin:auto auto auto 30px;
+    margin:auto auto auto 40px;
     color:#E94E3D;
     font-size: 13px;
-    border-spacing:0 10px;
+    border-spacing:0 20px;
 }
 
 td{
@@ -731,9 +731,6 @@ td:nth-child(1){
     padding: 30px;
 }
 
-.row2{
-    margin-left:13vw;
-}
 
 .title-galeria p{
     position: absolute;
@@ -776,7 +773,7 @@ td:nth-child(1){
 }
 
 form{
-    margin-top:140px;
+    margin-top:23vh;
     font-size:22px;
     margin-left:100px;
     border:0px;
@@ -846,7 +843,7 @@ input[type=submit]:hover{
 
 .title-kontakt p{
     position: absolute;
-    margin-top:50vh;
+    margin-top:50.5vh;
     margin-bottom: auto;
     margin-left: -45px;
     transform:rotate(-90deg);
