@@ -399,7 +399,6 @@ jQuery(document).ready(function(){
     }     
   });
 
-  
 });
 
 var today = new Date();
