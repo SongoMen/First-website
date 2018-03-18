@@ -1,11 +1,4 @@
 @font-face {
-    font-family: 'Geomanist';
-    src: url("fonts/Geomanist-Light.eot");
-    src: url("fonts/Geomanist-Light.woff") format("woff"),url("fonts/Geomanist-Light.ttf") format("truetype"),url("fonts/Geomanist-Light.svg") format("svg");
-    font-weight: 200;
-    font-style: light;
-}
-@font-face {
     font-family: 'Geomanist2';
     src: url("fonts/Geomanist-Medium.eot");
     src: url("fonts/Geomanist-Medium.woff") format("woff"),url("fonts/Geomanist-Medium.ttf") format("truetype"),url("fonts/Geomanist-Medium.svg") format("svg");
@@ -14,10 +7,18 @@
 }
 h1{
     display: inline;
-    transition: background-size .3s ease;
+    transition: background-size .7s ease;
     background: linear-gradient(to bottom, transparent 62%, #E94E3D 0) center center/0% 75% no-repeat;
     cursor: pointer;
 }
+
+h1:hover {
+    background-size: 100% 100%;
+  }
+  
+h1:active {
+    background-size: 80% 100%;
+  }
 
 a{
     text-decoration: none;
@@ -695,7 +696,6 @@ td:nth-child(1){
 .text h1{
     color:white;
     letter-spacing: 4px;
-    font-family: Geomanist2;
     margin:0;
     font-size:20px;
     font-style: italic;
@@ -723,7 +723,7 @@ td:nth-child(1){
 }
 
 .article4 img{
-    width:22.5vw;
+    width:19vw;
     height: 22.5vh;
     margin-top:9vh;
     display: block;
@@ -732,7 +732,7 @@ td:nth-child(1){
 }
 
 .row2{
-    margin-left:15vw;
+    margin-left:13vw;
 }
 
 .title-galeria p{
@@ -861,6 +861,10 @@ input[type=submit]:hover{
     width:1px;
     height: 5vw;
     background-color:#292929;
+}
+
+#dalej4{
+    margin-left: 8vw;
 }
 
 #dalej5{
